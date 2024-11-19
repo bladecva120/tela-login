@@ -29,14 +29,14 @@ section>div>h1{
 }
 
 section>div>p{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 section#login{
     position: absolute;
     overflow: hidden;
     background-color: white;
-    width: 360px;
+    width: 320px;
     height: 580px;
     border-radius: 20px;
     top: 50%;
@@ -58,11 +58,11 @@ section#login > div#formulario {
 
 form>div.campo{
     width: 100%;
-    height: 30px;
+    height: 45px;
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
     border-radius: 8px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     box-shadow: 1px 1px 3px black;
 }
 
@@ -71,13 +71,13 @@ form>div.person>label>img{
 }
 
 form>div.campo>input {
-    width: calc(100% - 24.4px);
+    width: calc(100% - 36px);
     height: 100%;
     border-radius: 8px;
     border-style: none;
     padding-left: 5px;
     background-color: aquamarine;
-    transform: translate(1px, -1.2px);
+    transform: translate(1px, -3.5px);
 }
 
 form>div.campo>input:focus-within{
@@ -86,12 +86,14 @@ form>div.campo>input:focus-within{
 
 form>input#entrar{
     width: 100%;
+    height: 40px;
     display: block;
     background-color: aquamarine;
     border-radius: 5px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     padding-bottom: 2px;
     font-weight: bold;
+    font-size: 20px;
     cursor: pointer;
     border: 1px solid black;
     box-shadow: 1px 1px 3px black;
@@ -105,14 +107,16 @@ form>input#entrar:hover{
 
 form>a{
     width: 100%;
+    height: 35px;
     display: block;
     border-radius: 5px;
     border: 1px solid black;
-    padding-bottom: 2px;
     font-weight: bold;
     text-align: center;
+    padding-top: 5px;
+    
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     color: black;
     cursor: pointer;
     box-shadow: 1px 1px 3px black;
@@ -129,7 +133,8 @@ form>a>img{
 }
 
 form>div.campo>label>img{
-    height: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 

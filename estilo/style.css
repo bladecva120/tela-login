@@ -29,7 +29,7 @@ section>div>h1{
 }
 
 section>div>p{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 section#login{
@@ -40,15 +40,15 @@ section#login{
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 360px;
+    height: 580px;
     border-radius: 20px;
 }
 
 section#login > div#imagem {
     background: #5f2c82 url('../img/pexels-pixabay.jpg') top left no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 250px;
     display: block;
 }
 
